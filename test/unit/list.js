@@ -25,12 +25,12 @@ describe(List, function() {
 
   it('displays the headlines', function() {
     list.addStory('human needs to breath multiple times, every day', 'www.google.com');
-    expect(list.displayHeadlines()).to.eql("<ul><li id='1'><a onclick='summary(1)'>human needs to breath multiple times, every day</a></li></ul>")
-  })
+    expect(list.displayHeadlines()).to.eql("<ul><li id='1'><a onclick='readStory(1, 0)'>human needs to breath multiple times, every day</a></li></ul>")
+  });
 
   it('finds the story by id', function() {
     list.addStory('woah', 'www.bbc.com');
     expect(list.findStoryById(2).title).to.eql('woah');
-  })
+  });
 
-})
+});

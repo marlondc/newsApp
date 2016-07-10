@@ -14,7 +14,26 @@ body {
 .text {
   font-family: "Tahoma";
   color: #333300;
-  font-size: 1.5em
+  font-size: 2em;
+  line-height: 1.5;
+  margin: auto;
+  max-width: 40em;
+  text-rendering: optimizeLegibility;
+}
+
+#summaries {
+  font-size: 1.5em;
+  max-width: 34em;
+  padding: inherit;
+  margin: inherit;
+  margin: auto;
+  -webkit-columns: 2 600px;
+  -moz-columns: 2 600px;
+  columns: 2 600px;
+  -webkit-column-gap: 1.5em;
+  -moz-column-gap: 1.5em;
+  column-gap: 1.5em;
+  text-rendering: optimizeLegibility;
 }
 
 .text a{
