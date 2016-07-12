@@ -8,8 +8,8 @@ describe("Interface", function() {
 
   var spy = sinon.spy();
 
-  var browser = new Browser({ site: 'http://localhost:3000'  });
   server.listen(4000);
+  browser = new Browser({ site: 'http://localhost:4000'  });
 
   beforeEach(function(done){
     browser.visit('/', done);

@@ -8,4 +8,4 @@
 
   exports.Story = Story;
 
-}(this))
+}(this));
