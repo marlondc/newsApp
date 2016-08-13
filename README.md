@@ -1,6 +1,8 @@
 #News Summary App
 
-User Stories 
+### Makers Academy Weekend Challenge
+
+User Stories
 ------
 
 ```
@@ -28,3 +30,8 @@ As a busy politician
 I can see whizzy animations in the app
 To make my news reading more fun
 ```
+### Instructions
+
+clone repository
+run npm start
+go to https://localhost:3000/
