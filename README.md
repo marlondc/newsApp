@@ -32,6 +32,6 @@ To make my news reading more fun
 ```
 ### Instructions
 
-clone repository
-run npm start
+clone repository, 
+run npm start,
 go to https://localhost:3000/
